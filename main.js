@@ -30,7 +30,7 @@ var me = {
 
 console.log(me);
 
-document.getElementById("q1").innerHTML 
+document.getElementById("q1").innerHTML = 'me';
 
 
 
