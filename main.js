@@ -16,11 +16,12 @@ BASIC TRACK: 1-13
 ADVANCED TRACK: 14-20
 =======================================================
 */
-
+document.getElementById("q0").innerHTML = "JS Page Connected Properly!";
+document.getElementById("q0").classList.add("status-good");
 
 
 // 1. Create an object called "me" that describes you with your name, city, and job title.
-//    Display the content of the object in the HTML page. 
+//    Display the content of the object in the HTML page.
 
 
 
@@ -150,10 +151,3 @@ var invitees = { adults: [{
 // F. Remove the second book from the books object.
 
 // G. Explain, in your own words, the difference between Literal Notation and Constructor Notation.
-
-
-
-
-
-
-
