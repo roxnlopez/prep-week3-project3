@@ -22,7 +22,15 @@ document.getElementById("q0").classList.add("status-good");
 
 // 1. Create an object called "me" that describes you with your name, city, and job title.
 //    Display the content of the object in the HTML page.
+var me = {
+  name: "Roxann",
+  city: "Denver",
+  jobTitle: "Paralegal"
+};
 
+console.log(me);
+
+document.getElementById("q1").innerHTML 
 
 
 
