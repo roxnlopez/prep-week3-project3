@@ -30,7 +30,7 @@ var me = {
 
 console.log(me);
 
-document.getElementById("q1").innerHTML = 'name ', + "city ", + "jobTitle";
+document.getElementById("q1").innerHTML = me.name, me.city, me.jobTitle;
 
 
 
