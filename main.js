@@ -49,7 +49,7 @@ var me = {
 };
 
 me.family = ["Roxann", "Wil", "Marley"];
-var html = me.name + ', ' + me.city + ', ' + me.jobTitle;
+var html = me.name + ', ' + me.city + ', ' + me.jobTitle + ', ' + me.family;
 document.getElementById("q2").innerHTML = html;
 
 // 3. Using the "me" object, use dot notation and bracket notation to access the value of your city and display the results in the HTML page.
@@ -63,7 +63,8 @@ var me = {
 me.family = ["Roxann", "Wil", "Marley"];
 console.log("Dot Notation: " + me.city);
 console.log("Bracket Notation: " + me["city"]);
-document.getElementById("q3").innerHTML = me.name, me.city, me.jobTitle;
+var html = "Dot Notation: " + me.city + ', ' "Bracket Notation: " + ["me.city"];
+document.getElementById("q3").innerHTML = html;
 
 
 
