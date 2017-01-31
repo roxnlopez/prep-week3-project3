@@ -110,6 +110,8 @@ console.log(invitees.adults[0].dinnerChoice[1]);
 
 // 5. Access Pablo's table number.
 
+console.log(invitees.children[1].table);
+
 // 6. Access Lauren's seating specialConsideration.
 
 // 7. Access Billy's dessert choice (this will be the third item in his dinnerChoice array)
