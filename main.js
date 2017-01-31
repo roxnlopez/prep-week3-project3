@@ -63,7 +63,7 @@ var me = {
 me.family = ["Roxann", "Wil", "Marley"];
 console.log("Dot Notation: " + me.city);
 console.log("Bracket Notation: " + me["city"]);
-var html = "Dot Notation: " + me.city + ', ' "Bracket Notation: " + ["me.city"];
+var html = "Dot Notation: " + me.city + ', ' + "Bracket Notation: " + me["city"];
 document.getElementById("q3").innerHTML = html;
 
 
