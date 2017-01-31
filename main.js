@@ -30,8 +30,7 @@ var me = {
 
 console.log(me);
 
-document.getElementById("q1").innerHTML = me.name, me.city, me.jobTitle;
-
+document.getElementById("q1").innerHTML = "Name:"+me.name+ ", City:"+me.city+", jobTitle:"+ me.jobTitle;
 
 
 
@@ -40,18 +39,28 @@ document.getElementById("q1").innerHTML = me.name, me.city, me.jobTitle;
 //                              city: 'Denver',
 //                              jobTitle: 'professional wrestler',
 //                              family: ['Joan', 'Kyle', 'Hank'] }
+var me = {
+  name: "Roxann",
+  city: "Denver",
+  jobTitle: "Paralegal",
+  family: ["Roxann", "Wil", "Marley"]
+};
 
-
-
-
-
+me.family = ["Roxann", "Wil", "Marley"];
+document.getElementById("q2").innerHTML = me.name, me.city, me.jobTitle;
 
 // 3. Using the "me" object, use dot notation and bracket notation to access the value of your city and display the results in the HTML page.
+var me = {
+  name: "Roxann",
+  city: "Denver",
+  jobTitle: "Paralegal",
+  family: ["Roxann", "Wil", "Marley"]
+};
 
-
-
-
-
+me.family = ["Roxann", "Wil", "Marley"];
+console.log("Dot Notation: " + me.city);
+console.log("Bracket Notation: " + me["city"]);
+document.getElementById("q3").innerHTML = me.name, me.city, me.jobTitle;
 
 
 
