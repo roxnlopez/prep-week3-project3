@@ -128,7 +128,7 @@ console.log(invitees.children[2].allergies);
 // Desired result: "Lauren's appetizer is _______. She will be eating ______ for dinner
 // and has selected ________ as her dessert."
 
-
+console.log("Lauren's appetizer is " + invitees.adults[0].dinnerChoice[0] + '. ' + "She will be eating " + invitees.adults[0].dinnerChoice[1] + ' ' + "for dinner and has selected " + invitees.adults[0].dinnerChoice[2] + ' ' +  "as her dessert.");
 
 
 
