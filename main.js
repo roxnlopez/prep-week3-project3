@@ -114,9 +114,15 @@ console.log(invitees.children[1].table);
 
 // 6. Access Lauren's seating specialConsideration.
 
+console.log(invitees.adults[2].specialConsiderations);
+
 // 7. Access Billy's dessert choice (this will be the third item in his dinnerChoice array)
 
+console.log(invitees.adults[1].dinnerChoice[2]);
+
 // 8. Access Ada's allergies.
+
+console.log(invitees.children[2].allergies);
 
 // 9. Create a string that reads Lauren's dinner choice in a sentence.
 // Desired result: "Lauren's appetizer is _______. She will be eating ______ for dinner
